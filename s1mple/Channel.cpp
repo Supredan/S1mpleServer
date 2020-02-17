@@ -24,6 +24,16 @@ Channel::Channel(simple::EventLoop *loop, int fd)
 {
 }
 
+Channel::~Channel()
+{
+//    assert(!eventHandling_);
+//    assert(!addedToLoop_);
+//    if (loop_->isInLoopThread())
+//    {
+//        assert(!loop_->hasChannel(this));
+//    }
+}
+
 void Channel::update() {
     loop_->updateChannel(this);
 }

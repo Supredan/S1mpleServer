@@ -3,6 +3,8 @@
 //
 
 #include "EventLoop.h"
+#include "Channel.h"
+#include "Poller.h"
 
 namespace simple{
     const int kPollTimeMs = 10000;
@@ -61,6 +63,13 @@ namespace simple{
 //    {
 //        wakeup();
 //    }
+    }
+
+    void EventLoop::updateChannel(Channel* channel)
+    {
+        assert(channel->ownerLoop() == this);
+        assertInLoopThread();
+        poller_->updateChannel(channel);
     }
 
     void EventLoop::abortNotInLoopThread()

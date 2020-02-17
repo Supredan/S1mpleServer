@@ -37,8 +37,9 @@ namespace simple{
         { errorCallback_ = std::move(cb); }
 
         int fd() const { return fd_; }
-        int event() const { return events_;}
+        int events() const { return events_;}
         void set_revents(int revt) { revents_ = revt; } // used by pollers
+        bool isNoneEvent() const { return events_ == kNoneEvent; }
 
         void enableReading() { events_ |= kReadEvent; update(); }
 //        void disableReading() { events_ &= ~kReadEvent; update(); }
