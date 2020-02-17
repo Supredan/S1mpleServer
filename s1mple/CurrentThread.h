@@ -20,9 +20,9 @@ namespace simple{
         void cacheTid();
 
         inline int tid() {
-            if (__builtin_expect(t_cachedTid == 0, 0)) {
-                cacheTid();
-            }
+//            if (__builtin_expect(t_cachedTid == 0, 0)) {
+//                cacheTid();
+//            }
             return t_cachedTid;
         }
 

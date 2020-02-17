@@ -34,6 +34,8 @@ namespace simple{
         /// Must be called in the loop thread.
         void updateChannel(Channel* channel);
 
+        static Poller* newDefaultPoller(EventLoop* loop){ return new Poller(loop); }
+
         void assertInLoopThread() const
         {
             ownerLoop_->assertInLoopThread();

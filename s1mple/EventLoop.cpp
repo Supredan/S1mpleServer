@@ -11,7 +11,11 @@ namespace simple{
     __thread EventLoop* t_loopInThisThread = 0;
 
     EventLoop::EventLoop()
-            : looping_(false), threadId_(CurrentThread::tid())
+            : looping_(false),
+              quit_(false),
+              threadId_(CurrentThread::tid()),
+              poller_(Poller::newDefaultPoller(this))
+
     {
         //log
         if(t_loopInThisThread)

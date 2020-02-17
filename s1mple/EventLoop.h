@@ -9,6 +9,8 @@
 #include <vector>
 #include <memory>
 
+#include <stdlib.h>
+
 #include "util.h"
 #include "CurrentThread.h"
 #include "Timestamp.h"
