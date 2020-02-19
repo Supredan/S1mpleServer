@@ -5,9 +5,11 @@
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <iostream>
+#include <stdio.h>
 #include "Channel.h"
 #include "EventLoop.h"
 #include "base/Util.h"
+#include "base/sudoku.h"
 #include "time.h"
 
 using namespace std;
@@ -19,6 +21,7 @@ std::unordered_map<std::string, std::string> MimeType::mime;
 const __uint32_t DEFAULT_EVENT = EPOLLIN | EPOLLET | EPOLLONESHOT;
 const int DEFAULT_EXPIRED_TIME = 2000;              // ms
 const int DEFAULT_KEEP_ALIVE_TIME = 5 * 60 * 1000;  // ms
+char* strfile;
 
 char favicon[555] = {
     '\x89', 'P',    'N',    'G',    '\xD',  '\xA',  '\x1A', '\xA',  '\x0',
@@ -170,11 +173,6 @@ void HttpData::handleRead() {
       handleError(fd_, 400, "Bad Request");
       break;
     }
-    // else if (read_num == 0)
-    // {
-    //     error_ = true;
-    //     break;
-    // }
     else if (zero) {
       // 有请求出现但是读不到数据，可能是Request
       // Aborted，或者来自网络的数据没有达到等原因
@@ -221,15 +219,15 @@ void HttpData::handleRead() {
     }
     if (state_ == STATE_RECV_BODY) {
       int content_length = -1;
-      if (headers_.find("Content-length") != headers_.end()) {
-        content_length = stoi(headers_["Content-length"]);
+      if (headers_.find("Content-Length") != headers_.end()) {
+        content_length = stoi(headers_["Content-Length"]);
       } else {
         // cout << "(state_ == STATE_RECV_BODY)" << endl;
         error_ = true;
         handleError(fd_, 400, "Bad Request: Lack of argument (Content-length)");
         break;
       }
-      if (static_cast<int>(inBuffer_.size()) < content_length) break;
+//      if (static_cast<int>(inBuffer_.size()) < content_length) break;
       state_ = STATE_ANALYSIS;
     }
     if (state_ == STATE_ANALYSIS) {
@@ -318,6 +316,7 @@ void HttpData::handleConn() {
   }
 }
 
+//解析URI
 URIState HttpData::parseURI() {
   string &str = inBuffer_;
   string cop = str;
@@ -352,6 +351,7 @@ URIState HttpData::parseURI() {
 
   // filename
   pos = request_line.find("/", pos);
+//  sprintf(strfile, "files%s", "/index.html");
   if (pos < 0) {
     fileName_ = "index.html";
     HTTPVersion_ = HTTP_11;
@@ -368,9 +368,8 @@ URIState HttpData::parseURI() {
           fileName_ = fileName_.substr(0, __pos);
         }
       }
-
       else
-        fileName_ = "index.html";
+        fileName_ = "/home/supdan/code/web/S1mpleServer/s1mple/net/files/index.html";
     }
     pos = _pos;
   }
@@ -395,6 +394,7 @@ URIState HttpData::parseURI() {
   return PARSE_URI_SUCCESS;
 }
 
+//解析请求头
 HeaderState HttpData::parseHeaders() {
   string &str = inBuffer_;
   int key_start = -1, key_end = -1, value_start = -1, value_end = -1;
@@ -483,32 +483,45 @@ HeaderState HttpData::parseHeaders() {
   return PARSE_HEADER_AGAIN;
 }
 
+template<const unsigned num, const char separator>
+void separate(std::string & input)
+{
+    for ( auto it = input.begin(); (num+1) <= std::distance(it, input.end()); ++it )
+    {
+        std::advance(it,num);
+        it = input.insert(it,separator);
+    }
+}
+
 AnalysisState HttpData::analysisRequest() {
   if (method_ == METHOD_POST) {
     // ------------------------------------------------------
     // My CV stitching handler which requires OpenCV library
     // ------------------------------------------------------
-    // string header;
-    // header += string("HTTP/1.1 200 OK\r\n");
-    // if(headers_.find("Connection") != headers_.end() &&
-    // headers_["Connection"] == "Keep-Alive")
-    // {
-    //     keepAlive_ = true;
-    //     header += string("Connection: Keep-Alive\r\n") + "Keep-Alive:
-    //     timeout=" + to_string(DEFAULT_KEEP_ALIVE_TIME) + "\r\n";
-    // }
-    // int length = stoi(headers_["Content-length"]);
-    // vector<char> data(inBuffer_.begin(), inBuffer_.begin() + length);
-    // Mat src = imdecode(data, CV_LOAD_IMAGE_ANYDEPTH|CV_LOAD_IMAGE_ANYCOLOR);
-    // //imwrite("receive.bmp", src);
-    // Mat res = stitch(src);
-    // vector<uchar> data_encode;
-    // imencode(".png", res, data_encode);
-    // header += string("Content-length: ") + to_string(data_encode.size()) +
-    // "\r\n\r\n";
-    // outBuffer_ += header + string(data_encode.begin(), data_encode.end());
-    // inBuffer_ = inBuffer_.substr(length);
-    // return ANALYSIS_SUCCESS;
+     string header;
+      char send_buff[4096];
+      string temp = solveSudoku(inBuffer_.substr(5));
+      separate<9,'\r'>(temp);
+      separate<10,'\n'>(temp);
+      string body_buff, header_buff;
+      body_buff += "<html><title>Solution:</title>";
+      body_buff += "<body bgcolor=\"ffffff\">";
+      body_buff += temp;
+      body_buff += "<hr><em> S1mple Server</em>\n</body></html>";
+
+      header_buff += "HTTP/1.1 200 OK\r\n";
+      header_buff += "Content-Type: text/html\r\n";
+      header_buff += "Connection: Close\r\n";
+      header_buff += "Content-Length: " + to_string(body_buff.size()) + "\r\n";
+      header_buff += "Server: S1mple Server\r\n";
+      ;
+      header_buff += "\r\n";
+
+      sprintf(send_buff, "%s", header_buff.c_str());
+      writen(fd_, send_buff, strlen(send_buff));
+      sprintf(send_buff, "%s", body_buff.c_str());
+      writen(fd_, send_buff, strlen(send_buff));
+     return ANALYSIS_SUCCESS;
   } else if (method_ == METHOD_GET || method_ == METHOD_HEAD) {
     string header;
     header += "HTTP/1.1 200 OK\r\n";
@@ -535,7 +548,7 @@ AnalysisState HttpData::analysisRequest() {
     if (fileName_ == "favicon.ico") {
       header += "Content-Type: image/png\r\n";
       header += "Content-Length: " + to_string(sizeof favicon) + "\r\n";
-      header += "Server: LinYa's Web Server\r\n";
+      header += "Server: S1mple Server\r\n";
 
       header += "\r\n";
       outBuffer_ += header;
@@ -545,14 +558,16 @@ AnalysisState HttpData::analysisRequest() {
     }
 
     struct stat sbuf;
-    if (stat(fileName_.c_str(), &sbuf) < 0) {
+    strfile = (char*)fileName_.c_str();
+    if (stat(strfile, &sbuf) == -1) {
+        perror(strfile);
       header.clear();
       handleError(fd_, 404, "Not Found!");
       return ANALYSIS_ERROR;
     }
     header += "Content-Type: " + filetype + "\r\n";
     header += "Content-Length: " + to_string(sbuf.st_size) + "\r\n";
-    header += "Server: LinYa's Web Server\r\n";
+    header += "Server: S1mple Server\r\n";
     // 头部结束
     header += "\r\n";
     outBuffer_ += header;
@@ -589,13 +604,13 @@ void HttpData::handleError(int fd, int err_num, string short_msg) {
   body_buff += "<html><title>哎~出错了</title>";
   body_buff += "<body bgcolor=\"ffffff\">";
   body_buff += to_string(err_num) + short_msg;
-  body_buff += "<hr><em> LinYa's Web Server</em>\n</body></html>";
+  body_buff += "<hr><em> S1mple Server</em>\n</body></html>";
 
   header_buff += "HTTP/1.1 " + to_string(err_num) + short_msg + "\r\n";
   header_buff += "Content-Type: text/html\r\n";
   header_buff += "Connection: Close\r\n";
   header_buff += "Content-Length: " + to_string(body_buff.size()) + "\r\n";
-  header_buff += "Server: LinYa's Web Server\r\n";
+  header_buff += "Server: S1mple Server\r\n";
   ;
   header_buff += "\r\n";
   // 错误处理不考虑writen不完的情况

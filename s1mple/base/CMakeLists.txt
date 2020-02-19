@@ -7,6 +7,7 @@ set(BASE_SRC
         LogStream.cpp
         Thread.cpp
         Util.cpp
+        sudoku.cc
         )
 
 add_library(lib_base ${BASE_SRC})

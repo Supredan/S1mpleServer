@@ -30,6 +30,7 @@ void TimerNode::update(int timeout) {
       (((now.tv_sec % 10000) * 1000) + (now.tv_usec / 1000)) + timeout;
 }
 
+//有效的
 bool TimerNode::isValid() {
   struct timeval now;
   gettimeofday(&now, NULL);

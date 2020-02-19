@@ -7,6 +7,8 @@ set(NET_SRCS
         Epoll.cpp
         Timer.cpp
         HttpData.cpp
+#        http_parser.c
+#        SudokuServer.cpp
         )
 
 add_library(lib_s1mple ${NET_SRCS} ${BASE_SRCS})

@@ -36,6 +36,7 @@ ssize_t readn(int fd, void *buff, size_t n) {
   return readSum;
 }
 
+// 读取fd中的内容到inbuffer，全部读完直到EAGAIN
 ssize_t readn(int fd, std::string &inBuffer, bool &zero) {
   ssize_t nread = 0;
   ssize_t readSum = 0;

@@ -110,6 +110,7 @@ void EventLoop::loop() {
   looping_ = false;
 }
 
+//执行待执行的程序
 void EventLoop::doPendingFunctors() {
   std::vector<Functor> functors;
   callingPendingFunctors_ = true;
@@ -123,6 +124,8 @@ void EventLoop::doPendingFunctors() {
   callingPendingFunctors_ = false;
 }
 
+// 如果不是当前IO线程调用quit，则需要唤醒（wakeup()）当前IO线程，
+// 因为它可能还阻塞在poll的位置（EventLoop::loop()），这样再次循环判断 while (!quit_) 才能退出循环。
 void EventLoop::quit() {
   quit_ = true;
   if (!isInLoopThread()) {

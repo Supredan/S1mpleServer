@@ -59,13 +59,9 @@ namespace simple {
 
         void setReadHandler(CallBack &&readHandler) { readHandler_ = readHandler; }
 
-        void setWriteHandler(CallBack &&writeHandler) {
-            writeHandler_ = writeHandler;
-        }
+        void setWriteHandler(CallBack &&writeHandler) { writeHandler_ = writeHandler;}
 
-        void setErrorHandler(CallBack &&errorHandler) {
-            errorHandler_ = errorHandler;
-        }
+        void setErrorHandler(CallBack &&errorHandler) { errorHandler_ = errorHandler;}
 
         void setConnHandler(CallBack &&connHandler) { connHandler_ = connHandler; }
 
