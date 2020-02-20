@@ -7,7 +7,7 @@ set(NET_SRCS
         Epoll.cpp
         Timer.cpp
         HttpData.cpp
-#        http_parser.c
+        http_parser.c
 #        SudokuServer.cpp
         )
 

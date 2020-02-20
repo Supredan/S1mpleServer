@@ -71,6 +71,7 @@ void TimerManager::addTimer(std::shared_ptr<HttpData> SPHttpData, int timeout) {
 就不用再重新申请RequestData节点了，这样可以继续重复利用前面的RequestData，减少了一次delete和一次new的时间。
 */
 
+//处理过期事件
 void TimerManager::handleExpiredEvent() {
   // MutexLockGuard locker(lock);
   while (!timerNodeQueue.empty()) {

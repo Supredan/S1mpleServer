@@ -16,8 +16,8 @@ int main(int argc, char *argv[]) {
     LOG << "_PTHREADS is not defined !";
 #endif
     EventLoop mainLoop;
-    Server myHTTPServer(&mainLoop, threadNum, port);
-    myHTTPServer.start();
+    Server S1mpleserver(&mainLoop, threadNum, port);
+    S1mpleserver.start();
     mainLoop.loop();
     return 0;
 }

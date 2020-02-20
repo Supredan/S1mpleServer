@@ -1,5 +1,3 @@
-// @Author Lin Ya
-// @Email xxbbb@vip.qq.com
 #pragma once
 #include <sys/epoll.h>
 #include <sys/epoll.h>
@@ -26,13 +24,6 @@ namespace simple {
 
         // 方便找到上层持有该Channel的对象
         std::weak_ptr<HttpData> holder_;
-
-    private:
-        int parse_URI();
-
-        int parse_Headers();
-
-        int analysisRequest();
 
         CallBack readHandler_;
         CallBack writeHandler_;
@@ -77,21 +68,19 @@ namespace simple {
                 return;
             }
             if (revents_ & (EPOLLIN | EPOLLPRI | EPOLLRDHUP)) {
-                handleRead();
+                if (readHandler_) {
+                    readHandler_();
+                }
             }
             if (revents_ & EPOLLOUT) {
-                handleWrite();
+                if (writeHandler_) {
+                    writeHandler_();
+                }
             }
-            handleConn();
+            if (connHandler_) {
+                connHandler_();
+            }
         }
-
-        void handleRead();
-
-        void handleWrite();
-
-        void handleError(int fd, int err_num, std::string short_msg);
-
-        void handleConn();
 
         void setRevents(__uint32_t ev) { revents_ = ev; }
 
