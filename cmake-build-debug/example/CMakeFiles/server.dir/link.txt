@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/server.dir/pserver.cpp.o  -o server ../s1mple/net/liblib_s1mple.a ../s1mple/base/liblib_base.a -lpthread -lrt 

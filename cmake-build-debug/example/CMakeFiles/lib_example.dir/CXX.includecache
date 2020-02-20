@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/supdan/code/web/S1mpleServer/example/SudokuServer.cpp
+SudokuServer.h
+/home/supdan/code/web/S1mpleServer/example/SudokuServer.h
+
+/home/supdan/code/web/S1mpleServer/example/SudokuServer.h
+

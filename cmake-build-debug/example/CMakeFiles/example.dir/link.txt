@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexample.a  CMakeFiles/example.dir/SoduServer.cpp.o
+/usr/bin/ranlib libexample.a

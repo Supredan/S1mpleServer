@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/supdan/code/web/S1mpleServer/s1mple/base/sudoku.cc
+sudoku.h
+/home/supdan/code/web/S1mpleServer/s1mple/base/sudoku.h
+vector
+-
+assert.h
+-
+string.h
+-
+string
+-
+
+/home/supdan/code/web/S1mpleServer/s1mple/base/sudoku.h
+string
+-
+

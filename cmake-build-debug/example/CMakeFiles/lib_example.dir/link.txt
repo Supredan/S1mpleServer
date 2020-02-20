@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_example.a  CMakeFiles/lib_example.dir/SudokuServer.cpp.o
+/usr/bin/ranlib liblib_example.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_base.a  CMakeFiles/lib_base.dir/AsyncLogging.cpp.o CMakeFiles/lib_base.dir/CountDownLatch.cpp.o CMakeFiles/lib_base.dir/FileUtil.cpp.o CMakeFiles/lib_base.dir/LogFile.cpp.o CMakeFiles/lib_base.dir/Logging.cpp.o CMakeFiles/lib_base.dir/LogStream.cpp.o CMakeFiles/lib_base.dir/Thread.cpp.o CMakeFiles/lib_base.dir/Util.cpp.o CMakeFiles/lib_base.dir/sudoku.cc.o
+/usr/bin/ranlib liblib_base.a

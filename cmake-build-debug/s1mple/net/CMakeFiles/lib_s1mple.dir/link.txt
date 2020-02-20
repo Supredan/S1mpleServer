@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_s1mple.a  CMakeFiles/lib_s1mple.dir/Channel.cpp.o CMakeFiles/lib_s1mple.dir/EventLoop.cpp.o CMakeFiles/lib_s1mple.dir/Server.cpp.o CMakeFiles/lib_s1mple.dir/EventLoopThreadPool.cpp.o CMakeFiles/lib_s1mple.dir/EventLoopThread.cpp.o CMakeFiles/lib_s1mple.dir/Epoll.cpp.o CMakeFiles/lib_s1mple.dir/Timer.cpp.o CMakeFiles/lib_s1mple.dir/HttpData.cpp.o CMakeFiles/lib_s1mple.dir/http_parser.c.o
+/usr/bin/ranlib liblib_s1mple.a

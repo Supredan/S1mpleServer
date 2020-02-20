@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="S1mpleServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\s1mple\;CMake Files\s1mple\base\;CMake Files\s1mple\net\;CMake Files\example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="S1mpleServer">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/S1mpleServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 S1mpleServer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="S1mpleServer/fast">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/S1mpleServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 S1mpleServer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_base">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/liblib_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 lib_base"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_base/fast">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/liblib_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 lib_base/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_s1mple">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/liblib_s1mple.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 lib_s1mple"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_s1mple/fast">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/liblib_s1mple.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 lib_s1mple/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/s1mple/net/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 bench"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench/fast">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 bench/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supdan/code/web/S1mpleServer/cmake-build-debug/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/supdan/code/web/S1mpleServer/s1mple"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/supdan/code/web/S1mpleServer/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/example/pbench.cpp">
+			<Option target="bench"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/example/pclient.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/example/pserver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/main.cpp">
+			<Option target="S1mpleServer"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/AsyncLogging.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/AsyncLogging.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/CountDownLatch.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/CountDownLatch.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/FileUtil.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/FileUtil.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/LogFile.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/LogFile.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/LogStream.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/LogStream.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/Logging.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/Logging.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/Thread.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/Thread.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/Util.cpp">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/Util.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/sudoku.cc">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/sudoku.h">
+			<Option target="lib_base"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Channel.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Channel.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Epoll.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Epoll.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/EventLoop.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/EventLoop.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/EventLoopThread.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/EventLoopThread.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/EventLoopThreadPool.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/EventLoopThreadPool.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Server.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Timer.cpp">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/Timer.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/http_parser.c">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/http_parser.h">
+			<Option target="lib_s1mple"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\s1mple\base\"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/s1mple/net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\s1mple\net\"/>
+		</Unit>
+		<Unit filename="/home/supdan/code/web/S1mpleServer/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

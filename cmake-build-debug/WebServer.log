@@ -1,0 +1,1887 @@
+2020-02-18 17:47:58
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-18 21:34:27
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-18 21:35:05
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-18 21:35:14
+New connection from 127.0.0.1:50184 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-18 21:35:16
+Request: sdasd
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-18 21:35:16
+FD = 15,sdasd
+****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:197
+2020-02-19 14:11:56
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:12:14
+New connection from 127.0.0.1:58224 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:12:14
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:12:14
+New connection from 127.0.0.1:58230 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:12:14
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:24
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:34:33
+New connection from 127.0.0.1:58544 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:33
+New connection from 127.0.0.1:58546 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:33
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:34
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:35
+New connection from 127.0.0.1:58552 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:35
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:35
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:36
+New connection from 127.0.0.1:58554 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:36
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:36
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:39
+New connection from 127.0.0.1:58560 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:39
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:40
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:34:40
+New connection from 127.0.0.1:58562 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:41
+New connection from 127.0.0.1:58564 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:34:41
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:37:41
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:37:45
+New connection from 127.0.0.1:58590 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:37:45
+New connection from 127.0.0.1:58592 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:37:45
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:39:22
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:39:25
+New connection from 127.0.0.1:58618 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:39:25
+New connection from 127.0.0.1:58620 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:39:25
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:41:33
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:49:03
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:49:07
+New connection from 127.0.0.1:58934 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:49:07
+New connection from 127.0.0.1:58936 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:49:07
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:51:11
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:53:29
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:53:32
+New connection from 127.0.0.1:59134 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:53:32
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:57:30
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 14:57:37
+New connection from 127.0.0.1:59324 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:57:37
+New connection from 127.0.0.1:59326 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:57:37
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:57:37
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:57:43
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:57:43
+New connection from 127.0.0.1:59336 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:58:02
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:58:02
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:58:02
+New connection from 127.0.0.1:59342 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 14:58:02
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 14:58:02
+New connection from 127.0.0.1:59344 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:02:08
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:02:13
+New connection from 127.0.0.1:59402 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:02:13
+New connection from 127.0.0.1:59404 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:02:13
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 15:02:22
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 15:02:22
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:161
+2020-02-19 15:02:22
+New connection from 127.0.0.1:59410 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:19:58
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:20:09
+New connection from 127.0.0.1:59780 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:20:09
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:20:28
+New connection from 127.0.0.1:59782 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:22:48
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:22:48
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:22:48
+New connection from 127.0.0.1:59798 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:22:48
+New connection from 127.0.0.1:59800 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:22:48
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:23:42
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:23:42
+New connection from 127.0.0.1:59806 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:23:42
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:24:00
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:24:02
+New connection from 127.0.0.1:59816 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:24:02
+New connection from 127.0.0.1:59818 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:24:02
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:28:15
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:28:38
+New connection from 127.0.0.1:60050 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:28:38
+New connection from 127.0.0.1:60052 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:28:38
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:39:06
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:39:11
+New connection from 127.0.0.1:60756 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:39:11
+New connection from 127.0.0.1:60758 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:39:11
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:39:16
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:39:33
+New connection from 127.0.0.1:60760 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:39:33
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:39:33
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:44:21
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:44:27
+New connection from 127.0.0.1:32776 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:44:27
+New connection from 127.0.0.1:32778 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:44:27
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:44:28
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:44:29
+New connection from 127.0.0.1:32780 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:44:29
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:44:29
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:44:57
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:44:59
+New connection from 127.0.0.1:32786 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:44:59
+New connection from 127.0.0.1:32788 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:44:59
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:44:59
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:31
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:45:33
+New connection from 127.0.0.1:32790 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:45:33
+New connection from 127.0.0.1:32792 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:45:33
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:33
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:33
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:34
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:48
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:45:50
+New connection from 127.0.0.1:32794 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:45:50
+New connection from 127.0.0.1:32796 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:45:50
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:50
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:51
+New connection from 127.0.0.1:32798 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:45:51
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:51
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:45:59
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:46:02
+New connection from 127.0.0.1:32800 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:46:02
+New connection from 127.0.0.1:32802 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:46:02
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:02
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:03
+New connection from 127.0.0.1:32804 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:46:03
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:03
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:12
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 15:46:14
+New connection from 127.0.0.1:32806 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:46:14
+New connection from 127.0.0.1:32808 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:46:14
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:14
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:15
+New connection from 127.0.0.1:32814 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 15:46:15
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 15:46:15
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:26:41
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 16:26:46
+New connection from 127.0.0.1:35082 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:26:46
+New connection from 127.0.0.1:35084 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:26:46
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:27:06
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:27:06
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:27:22
+New connection from 127.0.0.1:35114 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:27:22
+Request: POST /color.cgi HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:29:08
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 16:29:14
+New connection from 127.0.0.1:35132 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:29:14
+New connection from 127.0.0.1:35134 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:29:18
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:29:32
+New connection from 127.0.0.1:35140 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:29:35
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:29:59
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:34:18
+New connection from 127.0.0.1:35660 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:34:18
+New connection from 127.0.0.1:35662 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:34:22
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:34:22
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:35:25
+New connection from 127.0.0.1:35936 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:35:25
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:35:25
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 16:59:56
+New connection from 127.0.0.1:41906 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 16:59:56
+New connection from 127.0.0.1:41908 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:00:23
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:07:47
+New connection from 127.0.0.1:43864 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:07:47
+New connection from 127.0.0.1:43866 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:07:55
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:07:55
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:08:03
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:13:37
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 17:14:07
+New connection from 127.0.0.1:45420 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:14:07
+New connection from 127.0.0.1:45422 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:14:10
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:14:19
+New connection from 127.0.0.1:45472 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:14:20
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:14:22
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:14:38
+New connection from 127.0.0.1:45546 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:14:38
+New connection from 127.0.0.1:45548 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:14:39
+Request: olor=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:14:40
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:14:40
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:09
+New connection from 127.0.0.1:45670 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:15:09
+New connection from 127.0.0.1:45672 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:15:09
+Request: olor=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:10
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:13
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:39
+New connection from 127.0.0.1:45794 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:15:39
+New connection from 127.0.0.1:45796 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:15:39
+Request: olor=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:40
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:42
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:15:56
+New connection from 127.0.0.1:45878 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:15:59
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:16:04
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:16:23
+New connection from 127.0.0.1:45986 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:16:23
+New connection from 127.0.0.1:45988 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:16:24
+Request: olor=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:16:25
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:16:25
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:16:33
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:18:18
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 17:18:19
+New connection from 127.0.0.1:46480 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:18:19
+New connection from 127.0.0.1:46482 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 17:18:23
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 17:18:29
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:163
+2020-02-19 18:46:06
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 18:46:12
+New connection from 127.0.0.1:40818 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:46:12
+New connection from 127.0.0.1:40820 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:46:14
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:46:27
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:47:09
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 18:47:38
+New connection from 127.0.0.1:41186 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:47:38
+New connection from 127.0.0.1:41188 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:47:38
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:47:42
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:51:54
+New connection from 127.0.0.1:42656 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:51:54
+New connection from 127.0.0.1:42658 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:51:54
+New connection from 127.0.0.1:42684 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:51:54
+Request: olor=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:51:54
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:51:54
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:51:54
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:51:56
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:51:56
+FD = 18,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-19 18:58:42
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 18:58:53
+New connection from 127.0.0.1:44724 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:58:53
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:58:53
+New connection from 127.0.0.1:44726 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 18:58:56
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:58:56
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 18:58:56
+FD = 15,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-19 19:00:48
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:00:48
+New connection from 127.0.0.1:45196 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 19:00:48
+New connection from 127.0.0.1:45198 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 19:01:20
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:01:20
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:06:15
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:43
+2020-02-19 19:06:25
+New connection from 127.0.0.1:46682 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 19:06:25
+New connection from 127.0.0.1:46684 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-19 19:06:25
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:06:42
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:06:42
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:06:42
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-19 19:06:42
+FD = 15,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-19 19:06:42
+New connection from 127.0.0.1:46754 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:05:54
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 21:05:56
+New connection from 127.0.0.1:47674 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:05:56
+New connection from 127.0.0.1:47676 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:06:16
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:06:21
+New connection from 127.0.0.1:47686 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:06:47
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:06:47
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:06:51
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:06:51
+FD = 15,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:227
+2020-02-20 21:07:02
+New connection from 127.0.0.1:47694 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:07:02
+New connection from 127.0.0.1:47696 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:07:16
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:07:18
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:07:24
+New connection from 127.0.0.1:47700 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:07:54
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:08:50
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 21:08:51
+New connection from 127.0.0.1:47714 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:08:51
+New connection from 127.0.0.1:47716 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:10:36
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:10:40
+New connection from 127.0.0.1:47774 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:10:40
+New connection from 127.0.0.1:47776 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:10:45
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:11:09
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:11:27
+New connection from 127.0.0.1:47966 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:11:28
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:12:41
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:12:59
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:196
+2020-02-20 21:12:59
+FD = 17,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:227
+2020-02-20 21:17:07
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 21:17:17
+New connection from 127.0.0.1:49400 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:17:17
+New connection from 127.0.0.1:49402 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:17:39
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:201
+2020-02-20 21:17:39
+FD = 15,****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:232
+2020-02-20 21:47:46
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 21:50:03
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 21:50:07
+New connection from 127.0.0.1:51546 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:50:07
+New connection from 127.0.0.1:51548 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 21:50:07
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:04:19
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 22:04:24
+New connection from 127.0.0.1:51634 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:04:24
+New connection from 127.0.0.1:51636 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:04:24
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:04:28
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 10
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=1111 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:06
+Request: olor=1111 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:06
+FD = 15,olor=1111****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-20 22:05:20
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:20
+New connection from 127.0.0.1:51654 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:05:20
+New connection from 127.0.0.1:51656 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:05:20
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:25
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 9
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=red -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:38
+Request: olor=red -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:38
+FD = 15,olor=red****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-20 22:05:40
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:40
+New connection from 127.0.0.1:51658 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:05:40
+New connection from 127.0.0.1:51660 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:05:46
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 17
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:51
+Request: olor=12345600000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:51
+FD = 15,olor=12345600000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-20 22:05:53
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:05:53
+New connection from 127.0.0.1:51662 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:05:53
+New connection from 127.0.0.1:51664 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:09:53
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 22:10:01
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 22:10:09
+New connection from 127.0.0.1:51686 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:10:09
+New connection from 127.0.0.1:51688 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:10:09
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:09
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:12
+New connection from 127.0.0.1:51694 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:10:12
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 9
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=red -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:12
+Request: olor=red -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:12
+FD = 16,olor=red****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-20 22:10:24
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:24
+New connection from 127.0.0.1:51700 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:10:24
+New connection from 127.0.0.1:51702 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:10:28
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:28
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:28
+FD = 15,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-20 22:10:53
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:53
+New connection from 127.0.0.1:51710 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:10:53
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:10:53
+New connection from 127.0.0.1:51712 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:15:20
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:15:20
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:15:20
+New connection from 127.0.0.1:51920 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:15:20
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:15:20
+New connection from 127.0.0.1:51922 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:15:22
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:15:23
+New connection from 127.0.0.1:51924 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:15:23
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:15:31
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:23:23
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:23:23
+New connection from 127.0.0.1:52006 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:23:23
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:23:24
+Request:  -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:23:24
+New connection from 127.0.0.1:52008 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:23:32
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:25:28
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 22:25:32
+New connection from 127.0.0.1:52042 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:25:32
+New connection from 127.0.0.1:52044 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:25:32
+Request: GET /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:25:35
+New connection from 127.0.0.1:52050 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:25:35
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:25:56
+_PTHREADS is not defined ! -- /home/supdan/code/web/S1mpleServer/main.cpp:16
+2020-02-20 22:26:01
+New connection from 127.0.0.1:52060 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:26:01
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:26:01
+New connection from 127.0.0.1:52062 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:26:04
+Request: POST /sudokusolve HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:8888
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+color=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:26:04
+Request: olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000 -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:26:04
+FD = 15,olor=123456000000000000000000000000000000000000000000000000000000000000000000000000000****** -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:195
+2020-02-20 22:26:08
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Purpose: prefetch
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164
+2020-02-20 22:26:08
+New connection from 127.0.0.1:52118 -- /home/supdan/code/web/S1mpleServer/s1mple/net/Server.cpp:47
+2020-02-20 22:26:15
+Request: GET /hello HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+ -- /home/supdan/code/web/S1mpleServer/s1mple/net/HttpData.cpp:164

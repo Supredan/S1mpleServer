@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_s1mple.a  CMakeFiles/lib_s1mple.dir/Channel.cpp.o CMakeFiles/lib_s1mple.dir/CurrentThread.cpp.o CMakeFiles/lib_s1mple.dir/EventLoop.cpp.o CMakeFiles/lib_s1mple.dir/Poller.cpp.o CMakeFiles/lib_s1mple.dir/Timestamp.cc.o CMakeFiles/lib_s1mple.dir/TimerQueue.cpp.o
+/usr/bin/ranlib liblib_s1mple.a
