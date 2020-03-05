@@ -11,9 +11,9 @@
 - 使用双缓冲技术实现异步日志系统
 - 实现了长连接和管线化
 
-详情请看我的博客文章：正在写。。。
-测试页面：待补充
-PS：项目名称来源于我喜爱的CSGO职业选手S1mple，苏卡布列！
+详情请看我的博客文章：[点我](https://blog.csdn.net/weixin_42687826/article/details/104398845)  
+测试页面：[数独求解](http://114.116.250.194:8888/)  
+PS：项目名称来源于我喜爱的CSGO职业选手S1mple，苏卡布列！  
 # 安装与运行
 ```bash
 mkdir build
@@ -22,6 +22,8 @@ cmake ..
 make -j4 && make install
 ./S1mpleServer
 ```
+# 使用方式  
+  `fixme`  
 # 系统设计
 本项目主要有以下几个类：
 对外可见的：
@@ -56,6 +58,7 @@ subloop是工作线程的循环，httpdata充当了各个类的数据处理中�
 
 这里要注意subloop同样拥有一个epoll，connfd是注册到它的上面。
 # 测试结果
-
+使用webbench进行的本地测试，下图是在开启4线程，1000个连接，使用keep-Alive方式的结果，全部请求都成功，吞吐量在38MB/s。  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200220233531717.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjY4NzgyNg==,size_16,color_FFFFFF,t_70)
 # TODO
 
